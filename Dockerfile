@@ -1,3 +1,3 @@
-FROM nginx:1.11-alpine
+FROM nginx:1.17-alpine
 
-COPY vhost.conf /etc/nginx/conf.d/default.conf
+COPY .docker/vhost.conf /etc/nginx/conf.d/default.conf
